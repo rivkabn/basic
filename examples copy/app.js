@@ -1,6 +1,7 @@
 function Hello() {
-    return <div > hello to babel < /div>}
+    return <div > Hello to jsx < /div>;
+}
 
-    const rootNode = document.getElementById('root');
-    const root = ReactDOM.createRoot(rootNode);
-    root.render(React.createElement(Hello));
+const rootNode = document.getElementById('root');
+const root = ReactDOM.createRoot(rootNode);
+root.render(React.createElement(Hello));
